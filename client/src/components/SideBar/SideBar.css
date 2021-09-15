@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@700&display=swap');
+
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 70px);
+    background-color: #fff5f5;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.sidebarWrapper{
+    height: calc(100vh - 70px);
+    background-color: #fff5f5;
+    margin-top: 20px;
+    
+}
+
+.sidebarList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.sidebarList li{
+    padding-left: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #E54750;
+
+}
+
+.sidebarList li:hover{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #E54750;
+    background-color: #ffced1;
+    cursor: pointer;
+    
+}
+
+.sidebarList #active{
+    background-color: #E54750;
+    color: white;
+}
+
+
+.sidebarIcon{
+    margin-right: 10px;
+}
