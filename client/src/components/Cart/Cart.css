@@ -1,0 +1,94 @@
+.cart{
+    flex: 1.5;
+    height: calc(100vh - 70px);
+    background-color: #fff5f5;
+    
+}
+
+
+.cartWrapper{
+    height: calc(100vh - 70px);
+    padding: 0;
+    background-color: #fff5f5;
+    margin-top: 20px;
+}
+
+.cartTitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: #E54750;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.cartIcon{
+    display: flex;
+    margin-right: 10px;
+}
+
+.cartItems{
+    margin-top: 20px;
+
+}
+
+.cartItem{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.cartItemControl{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 5px;
+    
+
+}
+
+.increment{
+    flex: 1;    
+    border: none;
+    top: 10px;
+    /* width: 30px; */
+    /* height: 50px; */
+    top: 5px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.increment:hover{
+    /* flex: 1; */
+    border: none;
+    cursor: pointer;
+    color: #E54750;
+    top: 2px;
+}
+
+.amount{
+    flex: 2;
+
+}
+
+.decrement{
+    flex: 1;
+}
+
+
+.cartItemPhoto{
+    flex: 1;
+}
+
+.cartItemName{
+    flex: 4;
+}
+
+.cartItemPrice{
+    flex: 1;
+}
+
+
+

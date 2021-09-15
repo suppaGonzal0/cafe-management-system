@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@700&display=swap');
+.topBarContainer{
+    height: 70px;
+    width: 100%;
+    background-color: #E54750;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+
+.topBarLeft{
+    flex: 3;
+}
+
+
+.topBarCenter{
+    flex: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.searchbar{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    color:#858585;
+}
+
+.options{
+    margin-left: 10px;
+    display: flex;
+}
+
+.option{
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 8%;
+    width: 40px;
+    height: 32px;
+    border-radius: 50%;
+    color: #858585;
+    cursor: pointer;
+    background-color: white;
+}
+
+.searchInput{
+    margin: 10px;
+    border: none;
+    width: 90%;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.searchIcon{
+    margin-left: 15px;
+}
+
+.topBarRight{
+    display: flex;
+    flex: 3;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.account, .login{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.account{
+    color: white;
+}
+
+.login{
+    width: 40px;
+    height: 32px;
+    border-radius: 50%;
+    padding-top: 2.1%;
+    text-align: center;
+    color:#858585; 
+    background-color: white;
+}
+
+.logo{
+    font-size: 24px;
+    margin-left: 35px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+

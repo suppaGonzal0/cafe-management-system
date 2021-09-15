@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@700&display=swap');
+
+.feed{
+    flex: 6;
+    height: calc(100vh - 70px );
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+background-color: rgb(179, 179, 179);
+}
+
+.promotions{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.menuTitle{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    font-size: 25px;
+    
+}
+
+
+.breakfast h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #E54750;
+    margin-top: 25px;
+}
+.lunch h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #E54750;
+    margin-top: 25px;
+}
+.snacks h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #E54750;
+    margin-top: 25px;
+}
+.beverages h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #E54750;
+    margin-top: 25px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-top: 15px; */
+    justify-content: space-between;
+}
+
+.menuItems{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
