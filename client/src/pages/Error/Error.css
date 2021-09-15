@@ -1,0 +1,28 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.eimg {
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+.ebtn {
+    margin-left: 6%;
+    margin-top: 2%;
+    width: 150px;
+    background-color: #E54750;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    font-weight: 750;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: "Roboto";
+    font-size: medium;
+  }
